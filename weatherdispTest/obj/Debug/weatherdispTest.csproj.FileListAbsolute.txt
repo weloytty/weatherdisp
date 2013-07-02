@@ -1,0 +1,8 @@
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\bin\Debug\weatherdispTest.exe.config
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\bin\Debug\weatherdispTest.exe
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\bin\Debug\weatherdispTest.pdb
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\bin\Debug\WeatherData.dll
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\bin\Debug\WeatherData.pdb
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\obj\Debug\weatherdispTest.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\obj\Debug\weatherdispTest.exe
+d:\documents\visual studio 2012\Projects\weatherdisp\weatherdispTest\obj\Debug\weatherdispTest.pdb

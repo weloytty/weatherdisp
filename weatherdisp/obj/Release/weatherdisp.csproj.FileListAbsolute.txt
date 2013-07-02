@@ -1,0 +1,15 @@
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\bin\Release\weatherdisp.exe.config
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\bin\Release\weatherdisp.exe
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\bin\Release\weatherdisp.pdb
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\bin\Release\WeatherData.dll
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\bin\Release\WeatherData.pdb
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp.csprojResolveAssemblyReference.cache
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\MainWindow.baml
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\MainWindow.g.cs
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\App.g.cs
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp_MarkupCompile.cache
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp.g.resources
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp.Properties.Resources.resources
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp.csproj.GenerateResource.Cache
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp.exe
+d:\documents\Visual Studio 2012\Projects\weatherdisp\weatherdisp\obj\Release\weatherdisp.pdb

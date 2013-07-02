@@ -1,0 +1,5 @@
+d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\bin\Release\WeatherData.dll
+d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\bin\Release\WeatherData.pdb
+d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\obj\Release\WeatherData.dll
+d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\obj\Release\WeatherData.pdb
+d:\documents\visual studio 2012\Projects\weatherdisp\WeatherData\obj\Release\WeatherData.csprojResolveAssemblyReference.cache
