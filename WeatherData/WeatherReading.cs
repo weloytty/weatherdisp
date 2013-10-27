@@ -13,7 +13,7 @@ namespace WeatherData
            
     public class WeatherReading
     {
-
+        
         [DllImport("kernel32.dll", CharSet = CharSet.Unicode)]
         static extern uint GetPrivateProfileString(
            string lpAppName,
@@ -187,16 +187,5 @@ namespace WeatherData
             Debug.Assert(returnValue != ERROR_VALUE);
             return returnValue;
         }
-
-
-
-
-
-
-
-
-
-
-
     }
 }

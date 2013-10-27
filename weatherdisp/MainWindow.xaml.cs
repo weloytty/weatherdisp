@@ -21,7 +21,7 @@ namespace weatherdisp
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window , IDisposable
     {
         FileSystemWatcher _watch;
         public MainWindow()
@@ -36,8 +36,10 @@ namespace weatherdisp
             _watch.Dispose();
         }
 
+        
 
-        private void Grid_Initialized_1(object sender, EventArgs e)
+
+        private void Grid_Initializer(object sender, EventArgs e)
         {
             WeatherData.WeatherReading r = new WeatherReading();
             this.outdoorTemperature.Value = r.OutdoorTemperature;
@@ -47,8 +49,6 @@ namespace weatherdisp
             if (r.WeatherTendancy == WeatherReading.WeatherTendancies.Rising) risingOrFalling = "↑";
             if (r.WeatherTendancy == WeatherReading.WeatherTendancies.Falling) risingOrFalling = "↓";
 
-
-
             this.pressureLabel.Content = r.PressureRelative + risingOrFalling;
             this.atmosphericPressure.Value = r.PressureRelative ;
             this.outdoorHumidityLabel.Content = r.OutdoorHumidity.ToString()  +"%";
@@ -56,9 +56,8 @@ namespace weatherdisp
             this.dataUpdated.Content = r.DataRead;
 
 
-            
-            
-            if(File.Exists(Environment.GetEnvironmentVariable("ALLUSERSPROFILE") + @"\curlst.dat")){
+            if (File.Exists(Environment.GetEnvironmentVariable("ALLUSERSPROFILE") + @"\currdat.lst"))
+            {
                 _watch.Path = Environment.GetEnvironmentVariable("ALLUSERSPROFILE");
                 _watch.NotifyFilter = NotifyFilters.LastWrite;
                 _watch.Filter = "currdat.lst";
@@ -66,9 +65,6 @@ namespace weatherdisp
                 _watch.Changed += new FileSystemEventHandler(watch_Changed);
                 _watch.EnableRaisingEvents = true;
             }
-                
-            
-
 
         }
 
@@ -100,5 +96,10 @@ namespace weatherdisp
 
         }
 
+
+        public void Dispose()
+        {
+            _watch.Dispose();
+        }
     }
 }
