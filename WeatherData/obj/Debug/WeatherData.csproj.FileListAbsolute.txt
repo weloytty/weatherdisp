@@ -2,5 +2,4 @@ d:\documents\visual studio 2012\Projects\weatherdisp\WeatherData\bin\Debug\Weath
 d:\documents\visual studio 2012\Projects\weatherdisp\WeatherData\bin\Debug\WeatherData.pdb
 d:\documents\visual studio 2012\Projects\weatherdisp\WeatherData\obj\Debug\WeatherData.dll
 d:\documents\visual studio 2012\Projects\weatherdisp\WeatherData\obj\Debug\WeatherData.pdb
-d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\bin\Debug\WeatherData.dll.CodeAnalysisLog.xml
-d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\bin\Debug\WeatherData.dll.lastcodeanalysissucceeded
+d:\documents\Visual Studio 2012\Projects\weatherdisp\WeatherData\obj\Debug\WeatherData.csprojResolveAssemblyReference.cache
